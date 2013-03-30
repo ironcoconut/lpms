@@ -1,4 +1,7 @@
 Lpms::Application.routes.draw do
+  resources :matters
+
+
   resources :clients
 
 
