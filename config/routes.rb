@@ -1,4 +1,6 @@
 Lpms::Application.routes.draw do
+  get "sites/home"
+
   resources :matters
 
 
